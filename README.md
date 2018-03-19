@@ -8,7 +8,10 @@ And add the `include` line `"node_modules/custom-angular-decorators/**/index.ts"
 
 # decorators
 
-## AutoUnsubscribe(production: boolean)
+## Class decorator
+### AutoUnsubscribe(production: boolean)
 Decorator for auto unsubscribed your Subscription property and array with Subscription elements.
-## LifeCycleLog(production: boolean)
+
+## Property decorator
+### LifeCycleLog(production: boolean)
 Logger for your component property on LifeCycle Hooks.  
