@@ -1,2 +1,2 @@
-export * from './auto-unsubscribe';
-export * from './life-cycle-log';
+export * from './decarotors/auto-unsubscribe';
+export * from './decarotors/life-cycle-log';
