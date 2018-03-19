@@ -1,0 +1,10 @@
+{
+  "name": "custom-angular-decorators",
+  "version": "0.0.1",
+  "description": "Decorators for Angular, which will make life easier for you",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "StressoID",
+  "license": "MIT"
+}
