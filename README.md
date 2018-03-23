@@ -8,6 +8,17 @@ And add the `include` line `"node_modules/custom-angular-decorators/**/index.ts"
 
 # decorators
 
+## RoadMap
+
+ | Decorators      | Status      |    
+ | -------------   | -----------:|
+ | AutoUnsubscribe | Testing     |
+ | LifeCycleLog    | Testing     |
+ | DisableField    | Not started |
+ | Phone           | Not started |
+ | NotNull         | Not started |
+
+
 ## Class decorator
 ### AutoUnsubscribe(production: boolean)
 Decorator for auto unsubscribed your Subscription property and array with Subscription elements.
