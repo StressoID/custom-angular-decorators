@@ -6,9 +6,7 @@ Decorators for Angular, which will make life easier for you
    
 And add the `include` line `"node_modules/custom-angular-decorators/**/index.ts"` in `tsconfig.json` file
 
-# decorators
-
-## RoadMap
+# RoadMap
 
  | Decorators      | Status      |    
  | -------------   | -----------:|
@@ -18,6 +16,8 @@ And add the `include` line `"node_modules/custom-angular-decorators/**/index.ts"
  | DisableField    | Not started |
  | Phone           | Not started |
 
+
+# Decorators
 
 ## Class decorator
 ### AutoUnsubscribe(production: boolean)
