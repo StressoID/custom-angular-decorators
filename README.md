@@ -14,9 +14,9 @@ And add the `include` line `"node_modules/custom-angular-decorators/**/index.ts"
  | -------------   | -----------:|
  | AutoUnsubscribe | Testing     |
  | LifeCycleLog    | Testing     |
+ | NotNull         | Testing     |
  | DisableField    | Not started |
  | Phone           | Not started |
- | NotNull         | Not started |
 
 
 ## Class decorator
@@ -45,5 +45,19 @@ export class AppComponent implements OnInit {
     ngOnInit() {
         this.property = 10;
     }
+}
+```
+
+### NotNull()
+Check null property in model and generate exception.
+
+```
+class Model {
+  @NotNull
+  public field;
+
+  constructor(field) {
+    this.field = field;
+  }
 }
 ```
